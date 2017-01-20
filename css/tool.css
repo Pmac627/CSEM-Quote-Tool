@@ -1,0 +1,140 @@
+body { background-color: #fff; }
+#csemQuoteForm, #csemRegisterForm { position: relative; }
+.form-table {
+    width: 450px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+.form-table-col-both, .reg-logo, .reg-title, .reg-copyright {
+    text-align: center;
+}
+.form-bold, .form-label, #otherBox, #otherTypeErr {
+	display: block;
+	padding-top: 5px;
+}
+#otherBox, #otherTypeErr {
+    display: none;
+    height: 27px;
+}
+#otherTypeErr {
+    margin-top: 6px;
+}
+.form-table-col-left, #otherLabel {
+    text-align: right;
+    vertical-align: top;
+	width: 102px;
+}
+.form-table-col-right, #otherBox {
+    width: 250px;
+}
+.form-label {
+    display: inline-block;
+    width: 100%;
+}
+.form-input, .form-dropdown, .form-textbox {
+    font-family: arial, helvetica, sans-serif; 
+    font-size: 12px;
+    color: #000;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#students, #days {
+	width: 75px;
+}
+#class_title {
+	width: 340px;
+}
+.form-textbox {
+    width: 225px;
+    height: 5em;
+    margin-left: 2px;
+}
+.required {
+	color: #ff0000;
+}
+#errorMsg {
+    position: absolute;
+    background: #FAD3C4;
+    border: 1px solid #A75B4E;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #444444;
+    display: none;
+    font-size: 13px;
+    margin: 0px 0px 15px 0px;
+    padding: 8px 8px;
+    width: 96%;
+    z-index: 999;
+    overflow: hidden;
+}
+#errorClose {
+    position: relative;
+    float: right;
+    font-weight: bold;
+    color: #000;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+#reg {
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+}
+.reg-table {
+	border: 3px solid #0066CB;
+	border-collapse: collapse;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 13px;
+}
+.reg-left {
+	width: 40%;
+	text-align: right;
+	padding: 3px;
+}
+.reg-right {
+	width: 60%;
+}
+.reg-gap {
+	min-height: 40px;
+	height: 40px;
+}
+.reg-title {
+	font-weight: bold;
+}
+.reg-header {
+	font-size: 18px;
+	text-align: left;
+	font-style: italic;
+	padding: 10px;
+	background-color: #0066CB;
+	color: #fff;
+}
+.reg-text, .reg-copyright {
+	margin: 10px;
+	font-size: 11px;
+}
+.reg-text p {
+	position: relative;
+	margin: 0 75px 0 0;
+}
+.reg-disclaimer p {
+	position: relative;
+	margin: 0 75px;
+}
+.reg-signature {
+	width: 300px;
+	font-size: 11px;
+	text-align: right;
+	margin: 0 75px 20px auto;
+	border-top: 1px solid #000;
+}
+@media print {
+	.reg-logo {
+		position: absolute;
+		top: 50px;
+		left: 10px;
+	}
+}
